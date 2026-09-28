@@ -18,7 +18,7 @@ public class LogicCoverageTest {
     @MockBean
     private BookService bookService;
 
-    @Autowired // Spring автоматски внесува (inject) објект што е потребен (автоматски поврзи ја потребната зависност)
+    @Autowired
     private BookRepository bookRepository;
 
     private static final String KEYWORD = "java";
