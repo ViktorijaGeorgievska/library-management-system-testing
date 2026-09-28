@@ -97,5 +97,4 @@ public class LogicCoverageTest {
 
         assertEquals(0, result.size());
     }
-
 }
