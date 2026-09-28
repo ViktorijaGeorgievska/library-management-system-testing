@@ -59,5 +59,4 @@ public class BookServiceImpl implements BookService {
 
 		bookRepository.deleteById(book.getId());
 	}
-
 }

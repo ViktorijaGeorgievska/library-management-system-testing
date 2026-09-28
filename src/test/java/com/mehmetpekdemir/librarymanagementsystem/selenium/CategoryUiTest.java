@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class CategoryUiTest extends BaseSeleniumTest {
     @Test
     @DisplayName("Add category: appears in the list")
-    void addCategory_appearsInList() {
+    void addCategory() {
         String categoryName = uniqueText("Category");
         CategoriesPage categoriesPage = new CategoriesPage(driver);
         categoriesPage.open(baseUrl);
@@ -24,7 +24,7 @@ public class CategoryUiTest extends BaseSeleniumTest {
 
     @Test
     @DisplayName("Delete category: disappears from the list")
-    void deleteCategory_disappearsFromList() {
+    void deleteCategory() {
         String categoryName = uniqueText("To delete");
         CategoriesPage categoriesPage = new CategoriesPage(driver);
         categoriesPage.open(baseUrl);

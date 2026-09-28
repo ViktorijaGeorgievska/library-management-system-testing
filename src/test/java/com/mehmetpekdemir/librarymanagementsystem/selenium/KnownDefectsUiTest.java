@@ -15,19 +15,19 @@ public class KnownDefectsUiTest extends BaseSeleniumTest {
 
     @Test
     @DisplayName("DEFECT: /author/1 shows error page (no list-author template)")
-    void authorDetails_showsErrorPage() {
+    void authorDetails() {
         assertTemplateErrorPage("/author/1", "list-author");
     }
 
     @Test
     @DisplayName("DEFECT: /category/1 shows error page (no list-category template)")
-    void categoryDetails_showsErrorPage() {
+    void categoryDetails() {
         assertTemplateErrorPage("/category/1", "list-category");
     }
 
     @Test
     @DisplayName("DEFECT: /publisher/1 shows error page (no list-publisher template)")
-    void publisherDetails_showsErrorPage() {
+    void publisherDetails() {
         assertTemplateErrorPage("/publisher/1", "list-publisher");
     }
 }

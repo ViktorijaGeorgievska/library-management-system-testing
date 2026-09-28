@@ -16,7 +16,7 @@ public class NavigationGraphCoverageTest extends BaseSeleniumTest {
 
     @Test
     @DisplayName("TP1: N1 → N2 → N3 → N2 → N4 → N2 → N5 → N1")
-    void testPath1_addEditDetailsAndHome() {
+    void testPath1() {
         NavigationBar navigationBar = new NavigationBar(driver);
         BooksListPage booksPage = new BooksListPage(driver);
         BookFormPage formPage = new BookFormPage(driver);
@@ -56,7 +56,7 @@ public class NavigationGraphCoverageTest extends BaseSeleniumTest {
 
     @Test
     @DisplayName("TP2: N1 → N2 → N6 → N6 → N2")
-    void testPath2_searchTwiceAndBack() {
+    void testPath2() {
         NavigationBar navigationBar = new NavigationBar(driver);
         BooksListPage booksPage = new BooksListPage(driver);
 
