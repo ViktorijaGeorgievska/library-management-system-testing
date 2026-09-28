@@ -8,6 +8,7 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.mehmetpekdemir</groupId>
 	<artifactId>librarymanagementsystem</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -70,6 +71,11 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
 		</dependency>
 	</dependencies>
 
